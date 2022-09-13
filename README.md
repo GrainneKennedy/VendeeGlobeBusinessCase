@@ -67,7 +67,36 @@ There are multiple solutions for each challenge but we will descirbe here the de
 ![Business Requirements](https://github.com/GrainneKennedy/VendeeGlobeBusinessCase/blob/main/requirements.png?raw=true)
 
 ![Challenges](https://github.com/GrainneKennedy/VendeeGlobeBusinessCase/blob/main/Challenges.png?raw=true)
-![From Portugal](https://github.com/GrainneKennedy/VendeeGlobeBusinessCase/blob/main/from%portugal.png?raw=true)
-![To Dashboard](https://github.com/GrainneKennedy/VendeeGlobeBusinessCase/blob/main/dashboard.png?raw=true)
+![From Portugal](https://github.com/GrainneKennedy/VendeeGlobeBusinessCase/blob/main/from_portugal.png?raw=true)
+The boats leave from South of Portugal. They head south-east around the globe, sending data about their location every 60 seconds. 
 
+
+![To Dashboard](https://github.com/GrainneKennedy/VendeeGlobeBusinessCase/blob/main/dashboard.png?raw=true)
+We’ve tracked them. And also looked at their performance. But what was our journey? How did we end up here? 
+![Proposed Architecture](https://github.com/GrainneKennedy/VendeeGlobeBusinessCase/blob/main/architecture.png?raw=true)
+We started off looking at various options and decided on the following architecture
+
+* An Event Hub for collecting sailing boat data
+* A Stream Analytics Job for processing the data in real time (hot tier) and in batches (cool tier)
+* Data Lake Gen2 for low cost storage
+* Synapse serverless pools for collecting data batches and preforming batch calculations for ranking and for fun we added in other calculations for speed.
+* A Power BI dashboard for displaying both real time and batch data
+
+We treated this project as a proof of concept and included the complete architecture that could be implemented if this project was to be taken further. Areas highlighted show what services we did not use in our completed business case but could be used in the future if needs be. We included weather data as an input as we thought it would be interesting to see what impact the weather would have on the speed of the boats but unfortunetly given the time to complete this business case (one week) we didnt implement this but still think this would be cool to see.
+
+![Steps Taken](https://github.com/GrainneKennedy/VendeeGlobeBusinessCase/blob/main/steps.png?raw=true)
+
+![Azure Enviornment](https://github.com/GrainneKennedy/VendeeGlobeBusinessCase/blob/main/environment.png?raw=true)
+
+![Python Generator](https://github.com/GrainneKennedy/VendeeGlobeBusinessCase/blob/main/generator.png?raw=true)
+![Verify Streaming](https://github.com/GrainneKennedy/VendeeGlobeBusinessCase/blob/main/eventhub.png?raw=true)
+![Stream Analytics Outputs](https://github.com/GrainneKennedy/VendeeGlobeBusinessCase/blob/main/outputs.png?raw=true)
+![Stream Analytics Query](https://github.com/GrainneKennedy/VendeeGlobeBusinessCase/blob/main/queryoutputs.png?raw=true)
+
+![Synapse Batch Query](https://github.com/GrainneKennedy/VendeeGlobeBusinessCase/blob/main/batch.png?raw=true)
+
+![Synapse View](https://github.com/GrainneKennedy/VendeeGlobeBusinessCase/blob/main/stats.png?raw=true)
+![Synapse View](https://github.com/GrainneKennedy/VendeeGlobeBusinessCase/blob/main/rank.png?raw=true)
+![power Bi Measures](https://github.com/GrainneKennedy/VendeeGlobeBusinessCase/blob/main/measures.png?raw=true)
+![To Dashboard](https://github.com/GrainneKennedy/VendeeGlobeBusinessCase/blob/main/dashboard.png?raw=true)
 
