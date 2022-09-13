@@ -23,7 +23,7 @@ In this business case, you will assume the role of Nokia. You will build a cloud
 
 The Lambda Architecture should send all boat data to a PowerBI dashboard. The dashboard should display a world map with the current position of each boat, and a table with a ranking of racing teams. The ranking table should be sorted by who is currently in the lead. 
 
-We are currently between races, so unfortunately we cannot use the actual data from the boats participating in the race. Instead, you are going to use a [Python application](./race_simulator.py) that will simulate boat telemetry data from a fleet of 10 race participants. 
+We are currently between races, so unfortunately we cannot use the actual data from the boats participating in the race. Instead, you are going to use a phyton simulator that will simulate boat telemetry data from a fleet of 10 race participants. 
 
 To complete this business case, you will need to do the following:
 
