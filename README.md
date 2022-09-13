@@ -60,9 +60,14 @@ During the business case, we will need to address several challenges:
 
 There are multiple solutions for each challenge but we will descirbe here the decisions we made to address each of these challenges and present our final solution
 
- # Vendee Globe Intro
+![Vendee Globe Image](https://github.com/GrainneKennedy/VendeeGlobeBusinessCase/blob/main/Intro2.png?raw=true)
+ 
+![Intro](https://github.com/GrainneKennedy/VendeeGlobeBusinessCase/blob/main/intro.png?raw=true)
 
-![image](https://user-images.githubusercontent.com/108460854/189883728-02404ec3-98ca-4b1c-9378-9dd1d6843573.png)
+![Business Requirements](https://github.com/GrainneKennedy/VendeeGlobeBusinessCase/blob/main/requirements.png?raw=true)
 
+![Challenges](https://github.com/GrainneKennedy/VendeeGlobeBusinessCase/blob/main/Challenges.png?raw=true)
+![From Portugal](https://github.com/GrainneKennedy/VendeeGlobeBusinessCase/blob/main/from%portugal.png?raw=true)
+![To Dashboard](https://github.com/GrainneKennedy/VendeeGlobeBusinessCase/blob/main/dashboard.png?raw=true)
 
 
