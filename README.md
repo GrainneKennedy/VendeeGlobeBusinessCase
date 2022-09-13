@@ -93,5 +93,5 @@ We treated this project as a proof of concept and included the complete architec
 ![Synapse View](https://github.com/GrainneKennedy/VendeeGlobeBusinessCase/blob/main/stats.png?raw=true)
 ![Synapse View](https://github.com/GrainneKennedy/VendeeGlobeBusinessCase/blob/main/rank.png?raw=true)
 ![power Bi Measures](https://github.com/GrainneKennedy/VendeeGlobeBusinessCase/blob/main/measures.png?raw=true)
-![To Dashboard](https://github.com/GrainneKennedy/VendeeGlobeBusinessCase/blob/main/dashboard.png?raw=true)
+![To Dashboard](https://github.com/GrainneKennedy/VendeeGlobeBusinessCase/blob/main/dashboardend.png?raw=true)
 
