@@ -36,3 +36,33 @@ You will have completed the business case if your PowerBI dashboard correctly sh
 
 Good luck!
 
+## Getting started
+
+To help us get started, guided instructions were given to build the first piece of the Lambda Architecture which consisted of an Event Hub and instructions to get the Python sailing simulator up and running. 
+
+To complete the business case, here's what we needed to add:
+
+* The remaining pieces of the Lambda Architecture: a Stream Analytics Job, an output to PowerBI, and a second output to a data storage service of our choice.
+* A data storage service of our choice to store batch data: a Data Lake, a SQL Database, a Cosmos database, or a Synapse Analytics Workspace.
+* A view or stored procedure or Synapse notebook to calculate the table of teams ranked by position in the race.
+* A PowerBI dashboard that displays a world map with the current location of each racing team, and a table with the teams ranked by position in the race.
+
+We will have completed the business case when our PowerBI dashboard correctly shows the position and ranking of each sailing team in the race. 
+
+## Challenges
+
+During the business case, we will need to address several challenges:
+
+* The Python app occasionally produces garbled data. We need to ensure that only clean data arrives in the PowerBI dashboard? 
+* How are we going to calculate the ranked list of sailing teams? How will we calculate who is ahead in the race?
+* Which data service are we going to use for the batch-processing path in the Lambda Architecture?
+* How will we present our data in the PowerBI dashboard?
+
+There are multiple solutions for each challenge but we will descirbe here the decisions we made to address each of these challenges and present our final solution
+
+ # Vendee Globe Intro
+
+![image](https://user-images.githubusercontent.com/108460854/189883728-02404ec3-98ca-4b1c-9378-9dd1d6843573.png)
+
+
+
